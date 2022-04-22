@@ -14,7 +14,7 @@ pipeline {
         // This can be http or https
         NEXUS_PROTOCOL = "http"
         // Where your Nexus is running
-        NEXUS_URL = "65.1.92.163:8081/nexus"
+        NEXUS_URL = "http://65.1.92.163:8081/nexus/#"
         // Repository where we will upload the artifact
         NEXUS_REPOSITORY_RELEASES = "maven-releases"
         NEXUS_REPOSITORY_SNAPSHOTS = "maven-snapshots"
