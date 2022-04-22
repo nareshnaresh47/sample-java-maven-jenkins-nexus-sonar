@@ -19,7 +19,7 @@ pipeline {
         NEXUS_REPOSITORY_RELEASES = "maven-releases"
         NEXUS_REPOSITORY_SNAPSHOTS = "maven-snapshots"
         // Jenkins credential id to authenticate to Nexus OSS
-        NEXUS_CREDENTIAL_ID = "899bfb86-db46-3333-939e-464185476a57"
+        NEXUS_CREDENTIAL_ID = "NEXUS_CREDENTIAL_ID"
     }
     
     stages {
